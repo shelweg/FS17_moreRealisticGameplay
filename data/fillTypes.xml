@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<fillTypes>
+	<fillType name="barley" 	startPricePerM3="463" />	
+	<fillType name="maize"  	startPricePerM3="425" />	
+	<fillType name="potato" 	startPricePerM3="325" />
+	<fillType name="rape" 		startPricePerM3="689" />	
+	<fillType name="soybean" 	startPricePerM3="866" />	
+	<fillType name="sugarBeet" 	startPricePerM3="175" />
+	<fillType name="sunflower" 	startPricePerM3="754" />	
+	<fillType name="wheat" 		startPricePerM3="433" />
+	
+	<fillType name="sugarCane" 		startPricePerM3="130" />
+	
+	<!-- take into account we want "decent" content mass when carting "windrow" fillType -->
+	<!-- take into account mixer wagon bales capacity => by using these settings, we can set the rollbelt fillLevel to 2000 and the BB1290 to 4000L which is very convenient when "mixing" -->
+	<fillType name="dryGrass" 			density="0.125" balerMaterialFx="1"   startPricePerM3="56" /> <!-- 0.07 for loose hay, but in the gameplay mod, this is rather "compressed" hay we are talking about -->
+	<fillType name="dryGrass_windrow" 	density="0.125" balerMaterialFx="1"   startPricePerM3="56" /> <!-- 0.07 for loose hay, but in the gameplay mod, this is rather "compressed" hay we are talking about -->
+	<fillType name="grass" 				density="0.330" balerMaterialFx="1.8" startPricePerM3="45" /> <!-- 0.25 for loose grass, but in the gameplay mod, this is rather "compressed" grass we are talking about -->
+	<fillType name="grass_windrow" 		density="0.330" balerMaterialFx="1.8" startPricePerM3="45" /> <!-- 0.25 for loose grass, but in the gameplay mod, this is rather "compressed" grass we are talking about -->
+	<fillType name="straw" 				density="0.095" balerMaterialFx="1"   startPricePerM3="29" /> <!-- 0.045 for loose straw, but in the gameplay mod, this is rather "compressed" straw we are talking about -->
+	
+	<!-- multifruit map additional fruits default settings -->
+	<fillType name="oat" 		density="0.55"	startPricePerM3="475" /> <!-- "avena sativa L. = common oat" -->
+	<fillType name="rye" 		density="0.73"	startPricePerM3="460" /> <!-- "Secale cereale" -->
+	
+</fillTypes>

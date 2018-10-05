@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<fruitConverters>	
+	<fruitConverter categoryName="forageHarvester">		
+		<fillType inputName="wheat" targetName="chaff" conversionFactor="6.1" windrowConversionFactor="1" /> <!-- about 43.5T per Ha with base "mr" settings -->
+		<fillType inputName="barley" targetName="chaff" conversionFactor="6.15" windrowConversionFactor="1" /> <!-- about 40.5T per Ha with base "mr" settings -->
+		<fillType inputName="rape" targetName="chaff" conversionFactor="8" /> <!-- about 31.5T per Ha with base "mr" settings -->
+		<fillType inputName="sunflower" targetName="chaff" conversionFactor="8.7" /> <!-- about 36T. "biomass hybrid sunflower" for biogas plant -->
+		<fillType inputName="soybean" targetName="chaff" conversionFactor="6.85" /> <!-- about 23T. 'forage' type soybean IRL -->
+		<fillType inputName="maize" targetName="chaff" conversionFactor="6.4" /> <!-- about 60T per Ha with base "mr" settings -->
+		<fillType inputName="poplar" targetName="woodChips" conversionFactor="2.5" /> <!-- we want about 160M3 per Ha. => about 38T per hectare. Density of poplar wood = 0.6, density of woodChips = 0.24, if the mass is maintain at harvesting time, it means a 2.5 ratio -->
+		<fillType inputName="grass" targetName="grass_windrow" conversionFactor="1" windrowConversionFactor="1" /> <!-- about 26T per Ha (25% DM) -->
+	</fruitConverter>
+</fruitConverters>

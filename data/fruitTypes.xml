@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<!-- notes
+
+
+Default yields set in the MR Gameplay are not unrealistic (they all come from IRL data). But represent one of the best yields you can achieve worldwide.
+Providing there are no tracks in the field, no misses at seeding, no storm or weather problem, no insect problem, no wetness problem, no diseases, no weeds and no "collateral damage" when spraying neighboring crops.
+In fact, MR Gameplay yields are clearly realistic based on the conditions we have in the game.
+
+literPerSqm = how much liters per square meter you get for a given crop (when there is no fertilizer and no ploughing bonus)
+max yield wanted in ton per Hectare = literPerSqm * 20 * density of the grain
+literPerSqm = max yield wanted in ton per Hectare / 20 / density of the grain
+
+
+
+forage wagon use "windrowLiterPerSqm" (and so, once the "windrow" is present in your savegame, even by changing this value, the quantity picked up by the forage wagon remains the same)
+Forage harvester pickup header use "literPerSqm" (and so, even if the windrow is already present in your savegame, you can "change" the quantity picked up by modifying the "literPerSqm" value)
+This is a "bug" => forage harbester and forage wagon get different liters from the same windrow
+Fixed in "mr" V0.3.04 -> both only use the windrow liters capacity (do not rely anymore on the literPerSqm)
+This bug has been reported here : https://gdn.giants-software.com/thread.php?categoryId=13&threadId=5539
+
+-->
+
+<fruitTypes>
+	<fruitType name="barley"        literPerSqm="0.8250" seedUsagePerSqm="0.0260" windrowLiterPerSqm="5.4" mrMaterialQtyFx="1.05" /> <!-- same level as wheat, a little harder to thresh. windrow = about 4.9T per Ha -->
+	<fruitType name="dryGrass"      literPerSqm="3.25" 	 seedUsagePerSqm="0.0070" windrowLiterPerSqm="3.25" mrMaterialQtyFx="2.9" /> <!-- setting not useful since when we cut grass, this is the grass setting which is taken into account. And then, this is the tedder who turn grass into hay (0.75 lose factor in the "overrideTedder" file to get a final value of 6.1T of hay per Hectare) -->		
+	<fruitType name="grass"         literPerSqm="3.25" 	 seedUsagePerSqm="0.0070" windrowLiterPerSqm="3.25" mrMaterialQtyFx="3.2" /> <!-- windrow = about 21T per Ha -->	
+	<fruitType name="maize"         literPerSqm="1.1700" seedUsagePerSqm="0.0045" mrMaterialQtyFx="1.15" />	<!-- limit combine harvester only because of the yield, no real straw to thresh -->
+	<fruitType name="oilseedRadish" literPerSqm="0.9900" seedUsagePerSqm="0.0020" />	
+	<fruitType name="poplar"        literPerSqm="6.5000" seedUsagePerSqm="0.9000" mrMaterialQtyFx="16" /> <!--poplars are not "seeded" over all the field. There is a space between each "row". And so, about 50% of the field is actually sown by the "hired worker" with the "damcon" . Poplar yield is only used together with "fruitConverters" (default factor=2.5) -->
+	<fruitType name="potato"        literPerSqm="4.1300" seedUsagePerSqm="0.2300" />	
+	<fruitType name="rape"          literPerSqm="0.4920" seedUsagePerSqm="0.0020" mrMaterialQtyFx="0.75" /> <!-- limit combine harvester because of the qty of "straw" compared to the grain -->
+	<fruitType name="soybean"       literPerSqm="0.4200" seedUsagePerSqm="0.0225" mrMaterialQtyFx="0.87" /> <!-- very easy to thresh, limit combine harvester only because of the yield, no real straw to thresh -->
+	<fruitType name="sugarBeet"     literPerSqm="7.2000" seedUsagePerSqm="0.0016" />	
+	<fruitType name="sunflower"     literPerSqm="0.5200" seedUsagePerSqm="0.0030" mrMaterialQtyFx="0.62" />	<!-- no straw, poor yield, easy to thresh => combine limited by "damaging" the grain/loss while treshing -->
+	<fruitType name="wheat"         literPerSqm="0.8900" seedUsagePerSqm="0.0230" windrowLiterPerSqm="4.5" mrMaterialQtyFx="1" />	<!-- reference crop for materialQty compared to yield. windrow = about 4T per Ha -->
+	
+	<fruitType name="sugarCane"     literPerSqm="20.0000" seedUsagePerSqm="1.8500" />
+	
+	<!-- multifruit map additional fruits default settings -->
+	<fruitType name="oat"        	literPerSqm="0.7250" seedUsagePerSqm="0.0210" windrowLiterPerSqm="6"   	mrMaterialQtyFx="1.05" /> <!-- "avena sativa L. = common oat", about 8T/Ha yield, 5.5T/Ha straw -->
+	<fruitType name="rye"        	literPerSqm="0.7500" seedUsagePerSqm="0.0180" windrowLiterPerSqm="7.5" 	mrMaterialQtyFx="1.1" /> <!-- "Secale cereale", about 11T/Ha yield, 7T/Ha straw -->
+	
+</fruitTypes>

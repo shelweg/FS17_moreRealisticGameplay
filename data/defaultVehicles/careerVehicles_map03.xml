@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<careerVehicles>
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/steerable/bizon/bizonZ056.xml" propertyState="1" xPosition="-344.3" yOffset="0.5" zPosition="-71.0" yRotation="180" dirtAmount="0.5" age="34" operatingTime="111000"/>
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/cutters/bizon/bizonZ056Header.xml" propertyState="1" xPosition="-344.3" yOffset="0.5" zPosition="-74.8" yRotation="180" dirtAmount="0.5" age="34" operatingTime="100000"/>
+
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/steerable/masseyFerguson/MF4700.xml" propertyState="1" xPosition="-199" yOffset="0.5" zPosition="2" yRotation="-90" dirtAmount="0.5" age="37" operatingTime="75000">
+        <configuration name="frontloader" id="2" />
+        <boughtConfiguration name="frontloader" id="1" />
+        <boughtConfiguration name="frontloader" id="2" />
+    </vehicle>
+    
+    <vehicle filename="data/vehicles/trailers/brantner/brantnerE8041.xml" propertyState="1" xPosition="-194" yOffset="0.5" zPosition="2" yRotation="-90" dirtAmount="0.5" age="40" operatingTime="27000">
+       <configuration name="baseColor" id="13" />
+    </vehicle>
+    
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/tools/stara/staraFox11.xml" propertyState="1" xPosition="-182" yOffset="0.5" zPosition="2" yRotation="-90" dirtAmount="0.5" age="29" operatingTime="51000"/>
+
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/steerable/stara/staraSTMax105.xml" propertyState="1" xPosition="-230" yOffset="0.5" zPosition="2" yRotation="0" dirtAmount="0.5" age="26" operatingTime="67000"/>
+    
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/steerable/stara/staraSTMax150.xml" propertyState="1" xPosition="-343" yOffset="0.5" zPosition="105.5" yRotation="0" dirtAmount="0.5" age="26" operatingTime="61000" />
+        
+    
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/tools/gessner/gessnerSingleRow.xml" propertyState="1" xPosition="-343" yOffset="0.5" zPosition="100.4" yRotation="0" fillTypes="seeds fertilizer" fillLevels="8000 990" dirtAmount="0.5" age="31" operatingTime="34000"/>
+    
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/tools/lizard/lizardSWT7.xml" propertyState="1" xPosition="-242" yOffset="0.5" zPosition="0" yRotation="0" dirtAmount="0.5" age="26" operatingTime="31000"/>
+
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/tools/stara/staraCeresMaster3570.xml" propertyState="1" xPosition="-191" yOffset="0.5" zPosition="26" yRotation="0" fillTypes="seeds fertilizer" fillLevels="1095 1310" selectedSeedFruitType="wheat" dirtAmount="0.5" age="40" operatingTime="27000"/>
+    <vehicle modName="pdlc_platinumEdition" filename="$pdlcdir$platinumEdition/vehicles/trailer/lizard/canaTrans600.xml" propertyState="1" xPosition="-195" yOffset="0.5" zPosition="14" yRotation="-90" dirtAmount="0.5" age="40" operatingTime="27000"/>
+
+    <vehicle filename="data/vehicles/steerable/lizard/lizardPickupRodeo.xml" propertyState="1" xPosition="-277" yOffset="0.5" zPosition="-1" yRotation="0" dirtAmount="0.5" age="57" operatingTime="50000">
+       <configuration name="baseColor" id="30" />
+    </vehicle>
+    
+    <vehicle filename="data/vehicles/tools/stoll/stollFrontLoaderFZ.xml" propertyState="1" xPosition="-170" yOffset="0.5" zPosition="3.5" yRotation="180" dirtAmount="0.4" age="16" operatingTime="8950">
+        <configuration name="baseColor" id="8" />
+        <boughtConfiguration name="baseColor" id="8" />
+    </vehicle>
+    
+    <vehicle filename="data/vehicles/tools/stoll/stollToolPalletFork.xml" propertyState="1" xPosition="-170" yOffset="0.5" zPosition="1.0" yRotation="180" dirtAmount="0.4" age="16" operatingTime="8950">
+        <configuration name="baseColor" id="8" />
+        <boughtConfiguration name="baseColor" id="8" />
+    </vehicle>   
+
+	<vehicle filename="data/vehicles/tools/lizard/lizardWeight550.xml" propertyState="1" xPosition="-174" yOffset="0.5" zPosition="20.5" yRotation="0" dirtAmount="0.25" age="11" operatingTime="5200" />
+           
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-168.5 80.2 -1" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-168.5 80.2 -2.5" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-170.0 80.2 -1" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml"       position="-170.0 80.2 -2.5" rotation="0 3.14159 0" fillLevel="1000"/>
+    
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml"  position="-177 80.2 1.0" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml"  position="-177 80.2 2.5" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml"  position="-177 80.2 4.0" rotation="0 3.14159 0" fillLevel="1000"/>
+
+    <item className="FillablePallet" filename="data/objects/pallets/fertilizerTank.xml"                     position="-174 80.2 -6" rotation="0 3.14159 0" fillLevel="2000"/>
+    <item className="FillablePallet" filename="data/objects/pallets/fertilizerTank.xml"                     position="-172 80.2 -6" rotation="0 3.14159 0" fillLevel="2000"/>    
+    <item className="FillablePallet" filename="data/objects/pallets/fertilizerTank.xml"                     position="-170 80.2 -6" rotation="0 3.14159 0" fillLevel="2000"/>    
+    
+    <item modName="pdlc_platinumEdition" className="FillablePallet" filename="$pdlcdir$platinumEdition/objects/pallets/palletSugarCane.xml" position="-236.0 80.2 -0.7" rotation="0 3.14159 0" fillLevel="2000"/>
+    <item modName="pdlc_platinumEdition" className="FillablePallet" filename="$pdlcdir$platinumEdition/objects/pallets/palletSugarCane.xml" position="-236.0 80.2 0.7" rotation="0 3.14159 0" fillLevel="2000"/>    
+    <item modName="pdlc_platinumEdition" className="FillablePallet" filename="$pdlcdir$platinumEdition/objects/pallets/palletSugarCane.xml" position="-234.0 80.2 -0.7" rotation="0 3.14159 0" fillLevel="2000"/>      
+    <item modName="pdlc_platinumEdition" className="FillablePallet" filename="$pdlcdir$platinumEdition/objects/pallets/palletSugarCane.xml" position="-234.0 80.2 0.7" rotation="0 3.14159 0" fillLevel="2000"/>        
+</careerVehicles>

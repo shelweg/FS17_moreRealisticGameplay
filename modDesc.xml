@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="37">
+    <author>Dural</author>
+    <version>1.1.0.3</version>		
+	<title> <!-- we want to keep the same mod name for all languages so that players searching for help on forums are not lost -->
+        <en>MoreRealistic Gameplay</en>	
+		<de>MoreRealistic Gameplay</de>	
+		<fr>MoreRealistic Gameplay</fr>	
+    </title>
+    <description>
+        <en><![CDATA[Suits the gameplay to the moreRealistic game engine to get a better gaming experience.
+Update 1.1.0.3 = support custom soil resistance factor
+Update 1.1.0.0 = fix files loading order when using the "mrgameplay" folder embedded in a map
+You can read the included _CHANGELOG.txt file for more info on this release.]]></en>		
+		<de><![CDATA[Passt das Gameplay an die moreRealistic Game-Engine an, um ein besseres Spielerlebnis zu erhalten.
+Update 1.1.0.3 = ermöglicht einen benutzerdefinierten Wert für den Bodenwiderstand	
+Update 1.1.0.0 = korrigiert die Reihenfolge beim Laden von Dateien, wenn der Ordner "mrgameplay" in einer Map verwendet wird
+Lies die enthaltene Datei _CHANGELOG.txt für weitere Informationen zu dieser Version.]]></de>
+		<fr><![CDATA[Modifie certains paramètres du jeu pour prendre en compte le moteur de jeu MoreRealistic et apporter une meilleure expérience de jeu.
+Mise à jour 1.1.0.3 = autorise une valeur personnalisée pour la résistance du sol
+Mise à jour 1.1.0.0 = correction du chargement des paramètres quand on utilise un dossier "mrgameplay" inclus dans une map
+Vous pouvez lire le fichier _CHANGELOG.txt pour plus d'information sur cette version.]]></fr>		
+    </description>
+	<iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+	
+	<extraSourceFiles>			
+		<sourceFile filename="RealisticGlobalListener.lua" />
+		<sourceFile filename="RealisticMain.lua" />	
+		<sourceFile filename="OverrideWashable.lua" />		
+    </extraSourceFiles>
+
+	<inputBindings>
+    </inputBindings>
+
+</modDesc>

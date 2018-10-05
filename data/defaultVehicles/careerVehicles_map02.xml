@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<careerVehicles>
+    <vehicle filename="data/vehicles/steerable/sampoRosenlew/sampoRosenlewC6.xml" propertyState="1" xPosition="512.5" yOffset="0.5" zPosition="-264.5" yRotation="0" dirtAmount="0.7" age="71" operatingTime="139000"/>
+    <vehicle filename="data/vehicles/cutters/sampoRosenlew/sampoRosenlewC6.xml" propertyState="1" xPosition="512.5" yOffset="0.5" zPosition="-260" yRotation="0" dirtAmount="0.7" age="71" operatingTime="139000"/>
+
+    <vehicle filename="data/vehicles/steerable/huerlimann/huerlimannH488.xml" propertyState="1" xPosition="423.5" yOffset="0.5" zPosition="-242" yRotation="90" dirtAmount="0.35" age="88" operatingTime="171000"/>
+    <vehicle filename="data/vehicles/trailers/metaltech/db8000.xml" propertyState="1" xPosition="417" yOffset="0.5" zPosition="-242" yRotation="90" dirtAmount="0.35" age="68" operatingTime="121000"/>
+    
+    <vehicle filename="data/vehicles/steerable/zetor/zetorProximaPower.xml" propertyState="1" xPosition="414" yOffset="0.5" zPosition="-217" yRotation="90" dirtAmount="0.35" age="74" operatingTime="95000"/>
+	<vehicle filename="data/vehicles/tools/lizard/lizardWeight550.xml" propertyState="1" xPosition="417" yOffset="0.5" zPosition="-217" yRotation="90" dirtAmount="0.8" age="91" operatingTime="166000"/>	
+    <vehicle filename="data/vehicles/tools/kverneland/kvernelandQualidisc3m.xml" propertyState="1" xPosition="410" yOffset="0.5" zPosition="-217" yRotation="90" dirtAmount="0.35" age="73" operatingTime="46000" />	
+	
+	<vehicle filename="data/vehicles/steerable/zetor/zetorMajor.xml" propertyState="1" xPosition="414.7" yOffset="0.5" zPosition="-223" yRotation="90" dirtAmount="0.35" age="76" operatingTime="158000"/>
+    <vehicle filename="data/vehicles/tools/kverneland/kvernelandAccordDL.xml" propertyState="1" xPosition="411.5" yOffset="0.5" zPosition="-223" yRotation="90" dirtAmount="0.35" age="39" operatingTime="36000"/>
+</careerVehicles>
