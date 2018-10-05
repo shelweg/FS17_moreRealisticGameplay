@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<sprayTypes>
+	<sprayType name="digestate" litersPerHectare="14840"/>	
+	<sprayType name="fertilizer" litersPerHectare="260"/>	
+	<sprayType name="liquidFertilizer" litersPerHectare="290"/>
+	<sprayType name="liquidManure" litersPerHectare="13380"/>	
+	<sprayType name="manure" litersPerHectare="15000"/>		
+</sprayTypes>

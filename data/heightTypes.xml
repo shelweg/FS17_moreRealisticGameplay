@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<heightTypes>
+	<!-- default game value for straw => fillToGroundScale="6" maxSurfaceAngle="35" collisionScale="0.35" collisionBaseOffset="0.1" minCollisionOffset="0.1" maxCollisionOffset="1.2"  -->
+	<!-- default game value for grass_windrow => fillToGroundScale="6" maxSurfaceAngle="35" collisionScale="0.35" collisionBaseOffset="0.1" minCollisionOffset="0.1" maxCollisionOffset="1.2"  -->
+	<!-- default game value for dryGrass_windrow => fillToGroundScale="7" maxSurfaceAngle="35" collisionScale="0.35" collisionBaseOffset="0.1" minCollisionOffset="0.1" maxCollisionOffset="1.2"  -->
+	<heightType fillTypeName="straw" fillToGroundScale="12" maxSurfaceAngle="30" collisionScale="0.35" collisionBaseOffset="0.1" minCollisionOffset="0.1" maxCollisionOffset="1.2" />	
+</heightTypes>

@@ -1,0 +1,10 @@
+v1.1.0.3 = add "soilDraftForceFactor" parameter to the config.xml file (allow adjusting the "resistance" of the soil = heavy soil or light soil depending on the "texture" of the soil of the area you are playing on)
+
+v1.1.0.0 = fix files loading order when using the "mrgameplay" folder embedded in a map (values of the map config files were overrided by the default values of the mrGameplay mod)
+           add some help text about yields in the fruitTypes.xml files
+	   add sugarCane fruitType
+	   fix "strawPellets" and "hayPellets" bulk selling price when setting a different price in the gameplay fillTypes.xml file
+
+v1.0.0.3 = change folder name to "FS17_moreRealisticGameplay"
+
+!Please read the file within the "HELPMODDING" folder to get more information about customiszing a custom map with MR Gameplay

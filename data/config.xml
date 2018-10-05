@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<settings>
+	<doChangeFillTypes value="true" />
+	<doChangeFruitTypes value="true" />	
+	<doChangeSprayTypes value="true" />	
+	<doChangeFruitConvertersTypes value="true" />
+	
+	<!-- density of fresh grass => base "mr" game = 0.22 / gameplay game = 0.33   and so, to keep the same bale weight, we have to adapt the fillLevel here 
+		please note this value has to be set up accordingly to the "density" set for grass/grass_windrow/straw/dryGrass/dryGrass_windrow in the fillTypes.xml file of the gameplay mod
+	-->
+	<balerFillLevelScale value="0.667" /> <!-- roundbales = 2000L, large square bales = 3000L -->
+	<silageBaleDensity value="0.375" />
+	<dirtSpeedMultiplier value="0.5" /> <!-- 1=vanilla game setting, 0=no dirt, 0.5 means 2 times slower for a vehicle to become dirty -->
+	<priceDropDelay value="60000" /> <!-- base game value = 2000 => 2 seconds -->
+	
+	<!-- factor for the draftForce required by implements
+		1 = medium textured soil (example = loamy soil)
+		0.8 = coarse textured soil = light soil (example = sandy soil)
+		1.15 = fine textured soil = heavy soil (example = clay soil)
+		this is also possible to modify this value if we want to adjust the draftforce according to the working depth (1=12-15cm cultivator depth and 17-20cm plough depth)
+		-->
+	<soilDraftForceFactor value="1" /> 
+	
+	<animals>
+		<!-- adjust food consumption per day per cow to something like 100L to be more realistic and better balanced gameplay wise (the amount of bales required to tend a medium herd is really huge otherwise, especially when using 2000L round bales -->
+		<!-- 350L means about 105Kgs of food in the game for a cow -->
+		<!-- factor 0.285 = 100L = about 30Kgs -->
+		<cow foodRatio="0.285" /> 
+		
+		<!-- base game = 90L per day per pig, which means about 67kgs of food ! -->
+		<!-- IRL, for a big "pig" (70-80kgs), we need about 6L of water and 3-4Kgs of food per day -->
+		<!-- in the game, the avg food density taking into account each food product percentage and density = about 0.75 -->
+		<!-- if we only rely on reality, it would mean 4-6L per day. But in the game, we can harvest a lot of time in 365 days and pigs growth more quickly than IRL
+		<!-- for gameplay reason, we can then set a factor of 0.5 which means 45L per day -->
+		<pig foodRatio="0.5" /> 
+		
+		<!-- base game = 30L per day per sheep, which means about 10kgs of food with grass -->
+		<!-- doesn't seem a problem gameplay wise since this is pretty easy to get lot of liters of grass. Even with a small surface, we can get 3000L per day to feed 100 sheeps -->
+		<!-- so, we keep the 1 ratio here -->
+		<sheep foodRatio="1" /> 
+	</animals>
+</settings>

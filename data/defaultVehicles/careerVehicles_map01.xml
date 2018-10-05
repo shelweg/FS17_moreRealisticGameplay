@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<careerVehicles>
+    <vehicle filename="data/vehicles/steerable/caseIH/caseIH1660.xml" propertyState="1" xPosition="162.8" yOffset="0.5" zPosition="-15.6" yRotation="0" dirtAmount="0.5" age="56" operatingTime="111000" tourId="tourCombine"/>
+    <vehicle filename="data/vehicles/cutters/caseIH/caseIH1030Cutter.xml" propertyState="1" xPosition="162.8" yOffset="0.5" zPosition="-11.1" yRotation="0" dirtAmount="0.5" age="56" operatingTime="111000" tourId="tourCutter"/>
+
+    <vehicle filename="data/vehicles/steerable/caseIH/caseIH1455.xml" propertyState="1" xPosition="78" yOffset="0.5" zPosition="9.5" yRotation="-90" dirtAmount="0.5" age="48" operatingTime="96000" tourId="tourTractor1"/>
+    <vehicle filename="data/vehicles/tools/kuhn/kuhnCultimerL300.xml" propertyState="1" xPosition="82" yOffset="0.5" zPosition="9.5" yRotation="-90" dirtAmount="0.5" age="38" operatingTime="86000" tourId="tourCultivator"/>
+
+    <vehicle filename="data/vehicles/steerable/newHolland/newHolland8340.xml" propertyState="1" xPosition="41" yOffset="0.5" zPosition="-150" yRotation="90" dirtAmount="0.5" age="67" operatingTime="127000" tourId="tourTractor2"/>
+    <vehicle filename="data/vehicles/tools/greatPlains/gp3P1006NT.xml" propertyState="1" xPosition="37" yOffset="0.5" zPosition="-150" yRotation="90" dirtAmount="0.5" age="39" operatingTime="24000" tourId="tourSowingMachine"/>
+
+    <vehicle filename="data/vehicles/steerable/huerlimann/huerlimannH488.xml" propertyState="1" xPosition="180" yOffset="0.5" zPosition="-30.5" yRotation="-90" dirtAmount="0.5" age="53" operatingTime="101000" tourId="tourTractor3"/>
+    <vehicle filename="data/vehicles/trailers/metaltech/db8000.xml" propertyState="1" xPosition="186.5" yOffset="0.5" zPosition="-30.5" yRotation="-90" dirtAmount="0.5" age="52" operatingTime="91000" tourId="tourTrailer"/>
+
+    <vehicle filename="data/vehicles/steerable/lizard/lizardPickupRodeo.xml" propertyState="1" xPosition="226" yOffset="0.5" zPosition="-58" yRotation="0" dirtAmount="0.5" age="71" operatingTime="14000" tourId="tourPickup">
+       <configuration name="baseColor" id="1" />
+    </vehicle>
+
+    <item className="Placeable" filename="data/placeables/shelters/storageShelter02.xml" position="230 89.5 -120" rotation="0 0 0" age="57" price="9000"/>
+    <item className="Placeable" filename="data/placeables/shelters/storageShelter01.xml" position="150 89.5 -75" rotation="0 1.5708 0" age="57" price="14000"/>
+    <item className="Placeable" filename="data/placeables/shelters/storageShelter02.xml" position="70 95.5 55" rotation="0 1.5708 0" age="40" price="9000"/>
+    <item className="Placeable" filename="data/placeables/shelters/vehicleShelter.xml" position="163 94 141" rotation="0 -1.5708 0" age="29" price="20000"/>
+    
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml" position="217 90.1 -125.5" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml" position="219 90.1 -125.5" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml" position="217 90.1 -124" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerSeeds.xml" position="219 90.1 -124" rotation="0 3.14159 0" fillLevel="1000"/>
+
+    <item className="FillablePallet" filename="data/objects/pallets/fertilizerTank.xml" position="222.7 90.1 -123.5" rotation="0 3.14159 0" fillLevel="2000"/>
+    <item className="FillablePallet" filename="data/objects/pallets/fertilizerTank.xml" position="222.7 90.1 -125.5" rotation="0 3.14159 0" fillLevel="2000"/>
+    
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="226.5 90.1 -125.5" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="228.5 90.1 -125.5" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="226.5 90.1 -124" rotation="0 3.14159 0" fillLevel="1000"/>
+    <item className="FillablePallet" filename="data/objects/bigBagContainer/bigBagContainerFertilizer.xml" position="228.5 90.1 -124" rotation="0 3.14159 0" fillLevel="1000"/>
+</careerVehicles>

@@ -1,0 +1,21 @@
+***************************************************************************************
+HOW TO disable some settings of the "mrGameplay" by script in your mod
+
+you can assign (by script) these variables in your mod (directly in the lua file, not included into a function) : 
+
+g_currentMission.mrGameplayDoChangeFillTypes = false
+g_currentMission.mrGameplayDoChangeFruitTypes = false
+g_currentMission.mrGameplayDoChangeSprayTypes = false
+g_currentMission.mrGameplayDoChangeFruitConvertersTypes = false
+
+the "mrGameplay" check these variables just after the "Mission00.setMissionInfo" function is complete
+
+
+
+
+***************************************************************************************
+HOW TO set specific gameplay values for your map
+
+1. create a new folder named "mrgameplay" (lower case) at the root level of your map folder
+2. open the "moreRealisticGameplay\data" folder => you can copy-paste any files from this location to the newly created "mrgameplay" folder
+3. delete/add/modify what you want. The values from the "mrgameplay" folder of your map will override the ones from the "moreRealisticGameplay\data" folder
